@@ -1,37 +1,17 @@
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Shared style */
 .title-style{
   color : #151414;
   font-family: "Work Sans";
 }
-
+.title-style2{
+  color:  #151414;
+font-family: "Work Sans";
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
 .description{
   color:  #444343;
 
@@ -84,4 +64,35 @@ font-size: 20px;
 font-style: normal;
 font-weight: 600;
 line-height: normal;
+}
+
+/* Main style */
+.main-part-I{
+
+  padding: 100px;
+  margin-top: 80px;
+  display: grid;
+  
+ 
+  grid-template-columns: repeat(2,1fr);
+  column-gap: 10px;
+  
+}
+.my-failures-of-previous-year-list li{
+ 
+  list-style: none;
+}
+.my-failures-of-previous-year-list li .check{
+  
+  width: 15px;
+  height: 15px;
+  padding: 0;
+  text-align: left;
+  margin-right: 2px;
+}
+.my-failures-of-previous-year{
+  margin-top: 70px;
+  padding: 50px;
+  text-align: left;
+
 }
