@@ -93,6 +93,7 @@ line-height: normal;
 }
 
 /* Main style */
+
 .main-part-I{
 
   padding-left: 200px;
@@ -152,6 +153,23 @@ line-height: normal;
 /* Respnsive style */
 
 @media screen and (max-width : 576px){
+  .main-part-I{
+    padding: 0;
+    margin: 0;
+    grid-template-columns: 1fr;
+    justify-content: center;
+  }
+  .my-failures-of-previous-year{
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    margin-left: 150px;
+  }
+  .my-failures-of-previous-year-list{
+    text-align: left;
+    /* margin-left: 50px; */
+  }
+
   .my-plans-container{
     flex-direction: column;
     margin: 0;
@@ -167,7 +185,7 @@ line-height: normal;
   }
   .my-plans-container-img{
     
-    margin-left: 150px;
+    margin-left: 140px;
   }
 
 }
