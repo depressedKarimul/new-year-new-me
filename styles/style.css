@@ -92,6 +92,17 @@ font-weight: 600;
 line-height: normal;
 }
 
+.awlays-keep-a-positive-mindset-title{
+  padding-left: 80px;
+  padding-top: 60px;
+  color: #FFF;
+font-family: "Work Sans";
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
 /* Main style */
 
 .main-part-I{
@@ -146,6 +157,52 @@ line-height: normal;
 }
 .my-plans-container-img {
   margin-left: 100px;
+}
+
+.button2{
+  color: #F15B22;
+
+text-align: center;
+font-family: "Work Sans";
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin-left: 160px;
+padding: 20px 36px 21px 36px;
+margin-left:80px;
+margin-bottom: 59px;
+}
+
+.awlays-keep-a-positive-mindset{
+  position: relative;
+  left: 230px;
+  bottom: 100px;
+  
+  width: 70%;
+  height: 300px;
+  
+  background-image: url('../images/watch.png'), url('../images/gradient2.png');
+  background-position: center right, center;
+  background-size: cover, cover;
+  background-blend-mode: overlay;
+}
+
+/* Footer style */
+
+.footer{
+  color: #FFF;
+  background: #151414;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+ border: 2px solid green;
+ gap: 250px;
+}
+.future-content{
+  padding: 130px 0px 130px 230px;
+}
+.subscribe-content{
+  padding: 130px 229px 236px 0px;
 }
 
 
