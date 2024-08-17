@@ -47,6 +47,29 @@ line-height: normal;
 
 }
 
+.shared-footer-title{
+  .awlays-keep-a-positive-mindset-title{
+    padding-left: 80px;
+    padding-top: 60px;
+    color: #FFF;
+  font-family: "Work Sans";
+ 
+  font-style: normal;
+  
+  line-height: normal;
+  }
+  
+}
+
+.shared-footer-descriptoin{
+  color: #FFF;
+
+font-family: "Work Sans";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+}
 
 /* header style */
 
@@ -92,16 +115,6 @@ font-weight: 600;
 line-height: normal;
 }
 
-.awlays-keep-a-positive-mindset-title{
-  padding-left: 80px;
-  padding-top: 60px;
-  color: #FFF;
-font-family: "Work Sans";
-font-size: 40px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-}
 
 /* Main style */
 
@@ -158,6 +171,17 @@ line-height: normal;
 .my-plans-container-img {
   margin-left: 100px;
 }
+.awlays-keep-a-positive-mindset-title{
+  padding-left: 80px;
+  padding-top: 60px;
+  color: #FFF;
+font-family: "Work Sans";
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
 
 .button2{
   color: #F15B22;
@@ -205,7 +229,55 @@ margin-bottom: 59px;
   padding: 130px 229px 236px 0px;
 }
 
+.future-title{
+  font-size: 45px;
+  font-weight: 700;
+}
+.subscribe-title{
+  font-size: 25px;
+  font-weight: 600;
+}
 
+.future-img{
+  margin-right: 10px;
+ 
+
+}
+
+#footer-input{
+  width: 325px;
+height: 64px;
+  border-radius: 8px;
+border: 1px solid #FFF;
+background-color: #151414;
+
+color: #F3F3F3;
+font-family: "Work Sans";
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding-left: 21px;
+}
+
+
+#footer-button{
+  margin-top: 16px;
+
+  width: 170.106px;
+height: 64px;
+border-radius: 8px;
+background: #FFF;
+
+
+color: #F15B22;
+
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
 
 /* Respnsive style */
 
